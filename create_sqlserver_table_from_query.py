@@ -1,7 +1,7 @@
 import pymssql
 
 conn = pymssql.connect(server= srvr, user = usr, password=pwd, database=db)
-cur = conn.cursor()
+cursor = conn.cursor()
 
 cursor.execute(
 '''
